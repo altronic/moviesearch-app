@@ -1,0 +1,23 @@
+/*
+ * Base structure
+ */
+
+/* Set root here so can use rem relative to 10px in the settings scss file */
+html {
+  font-size: 62.5%;
+}
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+}
+/* Top navigation - Small bottom border for color accent */
+.navbar {
+  text-align: center;
+  border-bottom: solid $light-blue 3px;
+}
+.navbar-brand {
+  font-size: 23px;
+}
